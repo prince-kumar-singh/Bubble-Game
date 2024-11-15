@@ -61,6 +61,8 @@ html, body{
     height: 510px;
     padding: 20px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
@@ -77,4 +79,9 @@ html, body{
     border-radius: 50%;
     font-weight: 520;
     font-size: 18px;
+}
+
+.bubble:hover{
+    background-color: #0335ff;
+    cursor: pointer;
 }
